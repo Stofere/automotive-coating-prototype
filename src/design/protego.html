@@ -654,7 +654,7 @@ button,input,textarea,select{font-family:inherit}
                   <span style="font-size:12px; line-height:1.45; color:#D1D5DB">{{ r.title }}</span>
                 </div>
               </div>
-              <a href="https://www.instagram.com/protegodetailing/" target="_blank" rel="noopener" style="display:flex; align-items:center; gap:8px; font-size:12px; color:#9CA3AF" style-hover="color:#FFFFFF">{{ t.watchL }}<svg width="11" height="11" sc-camel-view-box="0 0 24 24" fill="none" stroke="currentColor" style="stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round"><path d="M7 17L17 7M8 7h9v9"></path></svg></a>
+              <a href="{{ r.url }}" target="_blank" rel="noopener" style="display:flex; align-items:center; gap:8px; font-size:12px; color:#9CA3AF" style-hover="color:#FFFFFF">{{ t.watchL }}<svg width="11" height="11" sc-camel-view-box="0 0 24 24" fill="none" stroke="currentColor" style="stroke-width:2.2; stroke-linecap:round; stroke-linejoin:round"><path d="M7 17L17 7M8 7h9v9"></path></svg></a>
             </div>
           </sc-for>
         </div>
@@ -1044,11 +1044,11 @@ class Component extends DCLogic {
   ];
 
   REELS = [
-    { slot: 'reel-kepinchocs', img: '/images/reviews/kepinchoc-review.webp', ph: 'Reel cover 9:16 — @kepinchocs', handle: '@kepinchocs', title: 'Kevin Anggara · Studio visit & coating' },
-    { slot: 'reel-gallardo', img: '/images/reviews/teguhku-review.webp', ph: 'Reel cover 9:16 — Gallardo', handle: '@protegodetailing', title: 'Lamborghini Gallardo · PPF & Coating walkaround' },
-    { slot: 'reel-seal', ph: 'Reel cover 9:16 — BYD Seal', handle: '@protegodetailing', title: 'BYD Seal · Advanced Package' },
-    { slot: 'reel-eclass', ph: 'Reel cover 9:16 — E-Class', handle: '@protegodetailing', title: 'Mercedes-Benz E-Class · Home Service' },
-    { slot: 'reel-rush', ph: 'Reel cover 9:16 — Toyota Rush', handle: '@protegodetailing', title: 'Toyota Rush · Used car transformation' }
+    { slot: 'reel-kepinchocs', img: '/images/reviews/kepinchoc-review.webp', url: 'https://www.instagram.com/stories/highlights/18326475772273633/', ph: 'Reel cover 9:16', handle: '@kepinchocs', title: 'Kevin Anggara · Coating Review Content' },
+    { slot: 'reel-gallardo', img: '/images/reviews/teguhku-review.webp', url: 'https://www.instagram.com/p/DZeyE-yJEga/', ph: 'Reel cover 9:16', handle: '@teguh.ku', title: 'Toyota Rush · Coating Content' },
+    { slot: 'reel-seal', url: 'https://www.instagram.com/protegodetailing/', ph: 'Reel cover 9:16 — BYD Seal', handle: '@protegodetailing', title: 'BYD Seal · Advanced Package' },
+    { slot: 'reel-eclass', url: 'https://www.instagram.com/protegodetailing/', ph: 'Reel cover 9:16 — E-Class', handle: '@protegodetailing', title: 'Mercedes-Benz E-Class · Home Service' },
+    { slot: 'reel-rush', url: 'https://www.instagram.com/protegodetailing/', ph: 'Reel cover 9:16 — Toyota Rush', handle: '@protegodetailing', title: 'Toyota Rush · Used car transformation' }
   ];
 
   CARS = ['BYD Seal', 'BMW F30', 'Toyota Fortuner', 'Mazda CX-5', 'Jaecoo J5'];

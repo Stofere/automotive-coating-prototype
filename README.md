@@ -44,7 +44,7 @@ All copy lives in `src/design/protego.html`. Search for these names:
 | Bilingual copy (most sentences)               | `T = { ID: {…}, EN: {…} }` — keep the same keys in both        |
 | Packages and pricing                          | `PKGS`                                                         |
 | Google review quotes                          | `REVIEWS`                                                      |
-| Influencer reels (captions and cover images)  | `REELS`                                                        |
+| Influencer reels (captions, covers, links)    | `REELS`                                                        |
 | WhatsApp number and Google Maps links         | `WA`, `MAPS`, `ROUTE`                                          |
 | Fixed labels (e.g. "INFLUENCER SPOTLIGHT", ©) | Directly in the HTML markup                                    |
 
